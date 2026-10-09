@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TeamVoting.Host/TeamVoting.Host.csproj" />
+    <Project Path="src/TeamVoting.SharedKernel/TeamVoting.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Administration/">
+    <Project Path="src/Modules/Administration/TeamVoting.Modules.Administration.Contracts/TeamVoting.Modules.Administration.Contracts.csproj" />
+    <Project Path="src/Modules/Administration/TeamVoting.Modules.Administration/TeamVoting.Modules.Administration.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Communication/">
+    <Project Path="src/Modules/Communication/TeamVoting.Modules.Communication.Contracts/TeamVoting.Modules.Communication.Contracts.csproj" />
+    <Project Path="src/Modules/Communication/TeamVoting.Modules.Communication/TeamVoting.Modules.Communication.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/TeamVoting.Modules.Identity.Contracts/TeamVoting.Modules.Identity.Contracts.csproj" />
+    <Project Path="src/Modules/Identity/TeamVoting.Modules.Identity/TeamVoting.Modules.Identity.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Room/">
+    <Project Path="src/Modules/Room/TeamVoting.Modules.Room.Contracts/TeamVoting.Modules.Room.Contracts.csproj" />
+    <Project Path="src/Modules/Room/TeamVoting.Modules.Room/TeamVoting.Modules.Room.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/TeamGeneration/">
+    <Project Path="src/Modules/TeamGeneration/TeamVoting.Modules.TeamGeneration.Contracts/TeamVoting.Modules.TeamGeneration.Contracts.csproj" />
+    <Project Path="src/Modules/TeamGeneration/TeamVoting.Modules.TeamGeneration/TeamVoting.Modules.TeamGeneration.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Voting/">
+    <Project Path="src/Modules/Voting/TeamVoting.Modules.Voting.Contracts/TeamVoting.Modules.Voting.Contracts.csproj" />
+    <Project Path="src/Modules/Voting/TeamVoting.Modules.Voting/TeamVoting.Modules.Voting.csproj" />
+  </Folder>
+</Solution>

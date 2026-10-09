@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeamVoting.SharedKernel\TeamVoting.SharedKernel.csproj" />
+    <ProjectReference Include="..\Modules\Identity\TeamVoting.Modules.Identity\TeamVoting.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Modules\Room\TeamVoting.Modules.Room\TeamVoting.Modules.Room.csproj" />
+    <ProjectReference Include="..\Modules\Communication\TeamVoting.Modules.Communication\TeamVoting.Modules.Communication.csproj" />
+    <ProjectReference Include="..\Modules\Voting\TeamVoting.Modules.Voting\TeamVoting.Modules.Voting.csproj" />
+    <ProjectReference Include="..\Modules\TeamGeneration\TeamVoting.Modules.TeamGeneration\TeamVoting.Modules.TeamGeneration.csproj" />
+    <ProjectReference Include="..\Modules\Administration\TeamVoting.Modules.Administration\TeamVoting.Modules.Administration.csproj" />
+  </ItemGroup>
+
+</Project>
